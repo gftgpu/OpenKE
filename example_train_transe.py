@@ -3,6 +3,9 @@ import models
 import tensorflow as tf
 import numpy as np
 import os
+import time
+print('wait')
+time.sleep(10)
 os.environ['CUDA_VISIBLE_DEVICES']='0'
 #Input training files from benchmarks/FB15K/ folder.
 con = config.Config()
